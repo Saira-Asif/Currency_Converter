@@ -35,13 +35,13 @@ let userAnswer = await inquirer.prompt([
         name: "from",
         message: "Select From Currency:",
         type: "list",
-        choices: ["USD", "GBP", "EUR", "CHF", "SGD", "CAD", "AUD", "NZD", "CNY", "TRY", "INR", "JPY", "PKR", "KRW"]
+        choices: ["USD", "KWD", "BHD", "OWD", "GBP", "EUR", "CHF", "BND", "SGD", "CAD", "AUD", "NZD", "QAR", "AED", "SAR", "MYR", "CNY", "TRY", "THB", "INR", "BDT", "JPY", "PKR", "LKR", "SDG", "SOS", "KRW"]
     },
     {
         name: "to",
         message: "Select To Currency:",
         type: "list",
-        choices: ["USD", "GBP", "EUR", "CHF", "SGD", "CAD", "AUD", "NZD", "CNY", "TRY", "INR", "JPY", "PKR", "KRW"]
+        choices: ["USD", "KWD", "BHD", "OWD", "GBP", "EUR", "CHF", "BND", "SGD", "CAD", "AUD", "NZD", "QAR", "AED", "SAR", "MYR", "CNY", "TRY", "THB", "INR", "BDT", "JPY", "PKR", "LKR", "SDG", "SOS", "KRW"]
     },
     {
         name: "amount",
